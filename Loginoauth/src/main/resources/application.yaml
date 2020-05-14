@@ -1,0 +1,7 @@
+server:
+  port: 9091
+security:
+  oauth2:
+    resource:
+      userInfoUri: http://localhost:9091/validateUser
+
